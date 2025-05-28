@@ -1,19 +1,21 @@
-DIM dummy, trys AS INTEGER, count AS LONG, total, start AS SINGLE
+DIM trys AS INTEGER, count AS LONG, total, start AS SINGLE
 
-CONST NoOfTest% = 10, iteration& = 100000
+CONST NoOfRun% = 5, iteration& = 1000
 
 CLS
 PRINT "Average Time, To run code:"
 
+'  place any variable declaration for your test code here.
 dummy = -1
-total = 0!
 
-FOR trys = 1 TO NoOfTest%
+total = 0!
+FOR trys = 1 TO NoOfRun%
 
   start = TIMER
 
   FOR count = -iteration& TO iteration&
-    dummy = -dummy
+  '   place your test code here.. 
+  dummy = -dummy
   NEXT
 
   start = TIMER - start
@@ -22,14 +24,16 @@ FOR trys = 1 TO NoOfTest%
   PRINT total / trys; ", dummy = -dummy"
 NEXT
 
+'   place any variable declaration for your test code here.
 dummy = -1
-total = 0!
 
-FOR trys = 1 TO NoOfTest%
+total = 0!
+FOR trys = 1 TO NoOfRun%
 
   start = TIMER
 
   FOR count = -iteration& TO iteration&
+  '   place your test code here. 
     dummy = NOT dummy
   NEXT
 
@@ -38,3 +42,6 @@ FOR trys = 1 TO NoOfTest%
 
   PRINT total / trys; ", dummy = NOT dummy"
 NEXT
+
+PRINT "END OF TEST, PRESS ANY KEY TO CLEAR SCREEN."
+SLEEP
