@@ -43,5 +43,5 @@ FOR trys = 1 TO NoOfRun%
   PRINT total / trys; ", dummy = NOT dummy"
 NEXT
 
-PRINT "END OF TEST, PRESS ANY KEY TO CLEAR SCREEN."
+PRINT "END OF TEST, PRESS ANY KEY TO END."
 SLEEP
