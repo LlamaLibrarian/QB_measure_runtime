@@ -1,4 +1,4 @@
-DIM trys AS INTEGER, count AS LONG, total, start AS SINGLE
+DIM trys AS INTEGER, count AS INTEGER, total AS SINGLE, start AS SINGLE
 
 CONST NoOfRun% = 5, iteration& = 1000
 
@@ -45,3 +45,4 @@ NEXT
 
 PRINT "END OF TEST, PRESS ANY KEY TO END."
 SLEEP
+
