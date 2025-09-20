@@ -24,6 +24,9 @@ FOR trys = 1 TO NoOfRun%
   PRINT total / trys; ", dummy = -dummy"
 NEXT
 
+PRINT "END OF ABOVE TEST, PRESS ANY KEY FOR NEXT TEST."
+SLEEP
+
 '   place any variable declaration for your test code here.
 dummy = -1
 
@@ -45,6 +48,7 @@ NEXT
 
 PRINT "END OF TEST, PRESS ANY KEY TO END."
 SLEEP
+
 
 
 
