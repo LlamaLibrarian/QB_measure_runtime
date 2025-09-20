@@ -1,6 +1,6 @@
 DIM trys AS INTEGER, count AS LONG, total AS SINGLE, start AS SINGLE
 
-CONST NoOfRun% = 10, iteration& = 10000
+CONST NoOfRun% = 10, iteration& = 100000
 
 CLS
 PRINT "Average Time, To run code:"
@@ -45,6 +45,7 @@ NEXT
 
 PRINT "END OF TEST, PRESS ANY KEY TO END."
 SLEEP
+
 
 
 
