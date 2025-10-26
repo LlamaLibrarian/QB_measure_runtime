@@ -40,6 +40,7 @@ FOR trys = 1 TO NoOfRun%
 
   PRINT total2; ", IF 0 = POINT(45, 45) THEN"
 NEXT
+
 IF total > total2 THEN
 PRINT "second construct is better"
 ELSE
@@ -47,6 +48,4 @@ PRINT "first construct is better"
 END IF
 
 PRINT "END OF TEST, PRESS ANY KEY TO END."
-
 SLEEP
-
