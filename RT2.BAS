@@ -2,7 +2,7 @@ DIM trys AS INTEGER, count AS LONG, total AS SINGLE, total2 AS SINGLE, start AS 
 
 CONST NoOfRun% = 50, iteration& = 50000
 
-SCREEN 12
+CLS
 PRINT "Total Time, To run code:"
 
 '  place any variable declaration for your test code here.
@@ -49,3 +49,4 @@ END IF
 
 PRINT "END OF TEST, PRESS ANY KEY TO END."
 SLEEP
+
