@@ -3,7 +3,7 @@
 '  if takes too long time to do the measurement, set iteration& or NoOfRun% to a smaller number.
 CONST NoOfRun% = 50, iteration& = 10000
 
-SCREEN 12
+CLS
 PRINT "Measuring runtime.. have Patience please wait."
 
 '  place any variable declaration for your test code here.
