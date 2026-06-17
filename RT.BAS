@@ -43,12 +43,6 @@ NEXT
 PRINT total; ",first:  IF POINT(245, 245) = 0 THEN"
 PRINT total2; ",second:  IF 0 = POINT(245, 245) THEN"
 
-IF total > total2 THEN
-PRINT "second construct is better"
-ELSE
-PRINT "first construct is better"
-END IF
-
 PRINT "END OF TEST, PRESS ANY KEY TO END."
 SLEEP
 
