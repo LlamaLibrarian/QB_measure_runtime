@@ -23,7 +23,7 @@ FOR trys = 1 TO NoOfRun%
 
 NEXT
 
-'   place any variable declaration for your test code here.
+'  place any variable declaration for your test code here.
 
 total2 = 0!
 FOR trys = 1 TO NoOfRun%
