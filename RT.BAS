@@ -1,12 +1,12 @@
 ﻿DIM trys AS INTEGER, count AS LONG, total AS SINGLE, total2 AS SINGLE, start AS SINGLE
 
-'  if takes too long time to do the measurement, set iteration& or NoOfRun% to a smaller number.
+'  if takes too long time to do the measurement, set iteration&, NoOfRun% to a smaller number.
 CONST NoOfRun% = 50, iteration& = 10000
 
 SCREEN 12
 PRINT "Measuring runtime.. have Patience please wait."
 
-'  place any variable declaration for your test code here.
+'  add setup commands and variables for your test code here.
 
 total = 0!
 FOR trys = 1 TO NoOfRun%
@@ -23,7 +23,7 @@ FOR trys = 1 TO NoOfRun%
 
 NEXT
 
-'  place any variable declaration for your test code here.
+'  add setup commands and variables for your test code here.
 
 total2 = 0!
 FOR trys = 1 TO NoOfRun%
