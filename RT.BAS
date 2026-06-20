@@ -43,5 +43,5 @@ NEXT
 PRINT total!; ", -->  IF POINT(245, 245) = 0 THEN"
 PRINT total2!; ", -->  IF 0 = POINT(245, 245) THEN"
 
-PRINT "END OF TEST, PRESS ANY KEY TO END."
+PRINT "End of measurements, press any key to exit."
 SLEEP
